@@ -1,0 +1,15 @@
+{
+  "name": "cooking-app",
+  "version": "1.0.0",
+  "description": "A Node.js recipe application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node tester.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": ["recipe", "cooking", "food", "timer", "ingredients"],
+  "author": "John Kuronya",
+  "license": "ISC"
+}
