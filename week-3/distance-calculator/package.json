@@ -1,0 +1,21 @@
+{
+  "name": "distance-calculator",
+  "version": "1.0.0",
+  "description": "Calculates the distance between two planets in AU.",
+  "main":  "src/distance-calculator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+  "test": "node test/distance-calculator.spec.js"
+},
+  "keywords": [
+  "distance",
+  "planets",
+  "AU",
+  "calculator",
+  "nodejs"
+],
+  "author": "John Kuronya",
+  "license": "ISC"
+}
