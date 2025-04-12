@@ -1,15 +1,17 @@
 {
   "name": "taco-stand-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI application for simulating events at a taco stand using Node.js EventEmitter and TDD principles.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "node test/taco-stand.spec.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["nodejs", "eventemitter", "taco-stand", "tdd", "cli"],
+  "author": "John Kuronya",
   "license": "ISC"
 }
+
