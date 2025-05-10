@@ -1,19 +1,26 @@
 {
   "name": "fantasy-character-creation",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Node.js fantasy character creation system using TDD and Jest",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "jest",
+    "tdd",
+    "character-creation",
+    "fantasy"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.11",
     "jest": "^29.7.0"
-  }
+  },
+  "type": "module"
 }
