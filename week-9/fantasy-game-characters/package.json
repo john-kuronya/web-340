@@ -1,16 +1,16 @@
 {
   "name": "fantasy-game-characters",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fantasy game characters project with tests.",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["game", "characters", "nodejs"],
+  "author": "John Kuronya",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.11",
